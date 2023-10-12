@@ -1,5 +1,5 @@
 import axios from "axios"
 const instance = axios.create({
-    baseURL:"http://localhost:8060/api"
+    baseURL:"https://passwordresetflow-tlxb.onrender.com/api"
 })
 export default instance
